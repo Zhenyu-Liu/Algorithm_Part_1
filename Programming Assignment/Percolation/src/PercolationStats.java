@@ -19,7 +19,6 @@ import edu.princeton.cs.algs4.StdStats;
 
 public class PercolationStats {
 
-    private Percolation matrix;
     // keep every independent trails
     private double[] threshold;
 
@@ -40,7 +39,7 @@ public class PercolationStats {
 
         // Count number of trials
         for (int i = 0; i < trials; i++) {
-            matrix = new Percolation(n);
+            Percolation matrix = new Percolation(n);
 
 
             while (!matrix.percolates()) {
@@ -55,8 +54,6 @@ public class PercolationStats {
 
             threshold[i] = matrix.numberOfOpenSites() / (double) (n * n);
         }
-
-
     }
 
     /**

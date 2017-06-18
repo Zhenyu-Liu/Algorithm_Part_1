@@ -4,7 +4,7 @@
 3. code style
    - always keep a space before "{"
    - if keep a space before "("
-   - while and for leave no space before "(" 
+   - while and for leave a space before "(" 
 ## Test Report
 
 ```

@@ -1,5 +1,5 @@
 ## Keynote
-1. handle backwash (use two UF object did get bonus score)
+1. handle backwash (use two UF object did not get bonus score)
 2. Limit the use of global variable save memory (The Percolation object in PercolationStat, if use it globally it won't pass the memory test) 
 3. code style
    - always keep a space before "{"
